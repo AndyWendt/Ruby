@@ -46,3 +46,10 @@ They have protected access outside of the class
 `nil`      # "null" in Java, etc., also counts as false
 `__FILE__` # the current file
 `__LINE__` # the current line number.
+
+
+## Operators
+
+### `a ||= b`  Double Pipe Equals
+
+Double pipe equals equates, functionally, to the expression: `a || a = b`.  It's just a shorthand syntax. 
